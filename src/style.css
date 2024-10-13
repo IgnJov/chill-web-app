@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#login-page.main-container {
+	background-image: url("./assets/login-background-img.jpeg");
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+#register-page.main-container {
+	background-image: url("./assets/register-background-img.jpeg");
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+.form-container {
+	background-color: white;
+}

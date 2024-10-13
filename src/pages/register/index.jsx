@@ -1,10 +1,10 @@
-import LoginForm from "../../components/login-form/index.jsx";
+import RegisterForm from "../../components/register-form/index.jsx";
 import "../../style.css";
 
-function Login() {
+function Register() {
 	return (
 		<div
-			id="login-page"
+			id="register-page"
 			className="main-container vh-100 d-flex justify-content-center align-items-center"
 		>
 			<div
@@ -18,14 +18,14 @@ function Login() {
 						src="src\assets\chill-icon.svg"
 						alt=""
 					/>
-					<h3>Masuk</h3>
-					<p>Selamat datang kembali!</p>
+					<h3>Daftar</h3>
+					<p>Selamat datang!</p>
 				</div>
 
-				<LoginForm />
+				<RegisterForm />
 			</div>
 		</div>
 	);
 }
 
-export default Login;
+export default Register;

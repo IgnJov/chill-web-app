@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 
 // React Router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -14,10 +13,15 @@ const router = createBrowserRouter([
 		path: "/login",
 		element: <Login />,
 	},
+	{
+		path: "/register",
+		element: <Register />,
+	},
 ]);
 
 // Pages
 import Login from "./pages/login";
+import Register from "./pages/register";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
