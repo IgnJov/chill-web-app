@@ -23,7 +23,7 @@ const loginForm = () => {
 				<div className="d-flex justify-content-between mb-4">
 					<span>
 						Belum Punya Akun?{" "}
-						<a className="text-decoration-none" href="">
+						<a className="text-decoration-none" href="/register">
 							Daftar
 						</a>
 					</span>
