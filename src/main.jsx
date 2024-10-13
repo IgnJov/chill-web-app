@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Login />,
+		element: <Home />,
 	},
 	{
 		path: "/login",
@@ -22,6 +22,7 @@ const router = createBrowserRouter([
 // Pages
 import Login from "./pages/login";
 import Register from "./pages/register";
+import Home from "./pages/home";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
